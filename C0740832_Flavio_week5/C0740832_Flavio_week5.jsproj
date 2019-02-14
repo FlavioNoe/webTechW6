@@ -60,6 +60,7 @@
     </AppxManifest>
     <Content Include="EventHandling.html" />
     <Content Include="Extra_MouseRollover.html" />
+    <Content Include="FormValidation.html" />
     <Content Include="images\dogFofo.jpg" />
     <Content Include="images\gollum.jpg" />
     <Content Include="index.html" />
