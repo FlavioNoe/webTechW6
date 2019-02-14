@@ -1,13 +1,24 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta charset="utf-8" />
-    <title>C0740832_Flavio_week5</title>
+    <title>C0740832_flavio_week5</title>
     <link href="css/default.css" rel="stylesheet" />
+    <script type="text/javascript">
+        function addNumbers(j) {
+            var sum = 0;
+            for (i = 0; i < j; i++) {
+                sum += i;
+            }
+            return sum;
+        }
+    </script>
 </head>
 <body>
-    <div>O conteúdo é inserido aqui!</div>
-    <script src="js/main.js"></script>
+    <script>
+        var inputnumber = prompt("State starting number");
+        document.write(addNumbers(inputnumber));
+    </script>
 </body>
 </html>
