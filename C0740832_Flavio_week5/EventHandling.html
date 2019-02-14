@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>C0740832 - Flavio - week5 - Event!!!</title>
+    <script type="text/javascript">
+        function trigger() {
+            document.getElementById("hover").addEventListener("mouseover", popup);
+            function popup() {
+                alert("Welcome to my WebPage!!!");
+            }
+        }
+    </script>
+    <style>
+        p {
+            font-size:50px;
+            position: fixed;
+            left: 550px;
+            top: 200px;
+        }
+    </style>
+</head>
+<body onload="trigger();">
+    <h1>C0740832 - Flavio - week06 - Event Handling</h1>
+    <br />
+    <p id="hover">Welcome!!!</p>
+</body>
+</html>
