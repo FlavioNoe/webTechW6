@@ -3,20 +3,22 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta charset="utf-8" />
-    <title>C0740832_flavio_week5 - For LOOP</title>
+    <title>C0740832_flavio_week5 - While LOOP</title>
     <link href="css/default.css" rel="stylesheet" />
     <script type="text/javascript">
         function addNumbers(j) {
             var sum = 0;
-            for (i = 0; i < j; i++) {
+            var i = 0;
+            while (i < j) {
                 sum += i;
+                i++;
             }
             return sum;
         }
     </script>
 </head>
 <body>
-    <h1>For loop</h1>
+    <h1>While loop</h1>
     <script>
         var inputnumber = prompt("State starting number");
         document.write(addNumbers(inputnumber));
